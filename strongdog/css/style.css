@@ -1,0 +1,293 @@
+@import url("https://use.typekit.net/ced8ump.css");
+@import url(../libs/normalize-css/normalize.css);
+@font-face {
+  font-family: termina;
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: termina;
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: termina;
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'SpaceGrotesk';
+  src: url("../fonts/SpaceGrotesk-Light.otf");
+  font-weight: 300;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'SpaceGrotesk';
+  src: url("../fonts/SpaceGrotesk-Medium.otf");
+  font-weight: 500;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'SpaceGrotesk';
+  src: url("../fonts/SpaceGrotesk-Bold.otf");
+  font-weight: 700;
+  font-display: swap; }
+
+* {
+  box-sizing: border-box; }
+  *:before, *:after {
+    box-sizing: border-box; }
+
+html, body {
+  height: 100%; }
+
+body {
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'SpaceGrotesk', sans-serif;
+  overflow-x: hidden;
+  background-color: #000; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: termina,sans-serif; }
+
+h1 {
+  letter-spacing: 5px;
+  font-size: 1.8em;
+  line-height: 1;
+  font-weight: 700; }
+
+h2 {
+  font-size: 1.2em;
+  line-height: 1.5;
+  font-weight: 700;
+  letter-spacing: 2px; }
+
+h3 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  letter-spacing: 2px; }
+
+h4 {
+  font-size: 21px;
+  line-height: 27px; }
+
+h5 {
+  font-size: 14px;
+  line-height: 18px; }
+
+a {
+  color: #E1682D;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+  a:hover {
+    color: #fff;
+    text-decoration: none; }
+
+a:hover, a:active, a:focus {
+  outline: 0; }
+
+header {
+  padding-top: 69px; }
+
+.orange {
+  color: #E1682D; }
+
+#hero {
+  margin-top: -94px; }
+  #hero .hero-bg {
+    position: relative;
+    z-index: -1;
+    margin-bottom: -150px; }
+  #hero p {
+    font-weight: 300; }
+  #hero h1 {
+    margin-top: 100px; }
+    #hero h1 span {
+      display: block;
+      font-size: .4em;
+      color: #fff;
+      letter-spacing: 2px;
+      line-height: 48px; }
+
+.logo-line {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  .logo-line .logo-wrap {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 153px;
+    height: 153px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 15px; }
+    .logo-line .logo-wrap img {
+      max-width: 95%;
+      height: auto; }
+
+.arrow-down {
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto; }
+
+#seals {
+  padding-bottom: 150px; }
+
+.hr {
+  width: 100%;
+  max-width: 1084px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1px;
+  background-color: #fff;
+  margin-top: 20px;
+  margin-bottom: 40px; }
+
+.calendar {
+  text-align: center; }
+  .calendar p {
+    font-family: termina,sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: uppercase; }
+  .calendar h3 {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    line-height: 1.25; }
+
+#content {
+  padding-bottom: 80px; }
+
+footer {
+  padding-top: 90px;
+  padding-bottom: 75px;
+  background-color: #222; }
+  footer h3 {
+    font-size: 1.6em;
+    text-transform: uppercase;
+    line-height: 1.25; }
+  footer .column-title {
+    font-family: termina,sans-serif;
+    font-size: 1.25em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px; }
+  footer .address, footer .email, footer .phone {
+    font-weight: 300;
+    line-height: 1.625; }
+    footer .address span, footer .email span, footer .phone span {
+      font-weight: 700; }
+  footer .police-links {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    footer .police-links a {
+      font-weight: 300;
+      color: #fff;
+      padding-left: 15px;
+      padding-right: 15px; }
+      footer .police-links a:hover {
+        color: #E1682D; }
+  footer .copiright {
+    font-weight: 300; }
+  footer .footer-image img {
+    max-height: 147px; }
+
+/*==========  Desktop First  ==========*/
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
+/*==========  Mobile First  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 2.75em; }
+  h2 {
+    font-size: 1.8em; }
+  .calendar h3 {
+    font-size: 1.8em; }
+  .calendar p {
+    font-size: 1.25em; }
+  footer h3 {
+    font-size: 1.8em; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  #hero h1 {
+    margin-top: 194px; }
+  #hero .hero-bg img {
+    max-height: calc(100vh + 64px); }
+  h2 {
+    font-size: 2.5em; }
+  .calendar h3 {
+    font-size: 2.5em; }
+  footer h3 {
+    font-size: 2.5em; }
+  #content {
+    padding-bottom: 280px; } }
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  h1 {
+    font-size: 4.25em; }
+  footer .police-links {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between; } }
+
+@media only screen and (min-width: 1400px) {
+  h1 {
+    font-size: 6.25em; }
+  .container.wide {
+    max-width: 1641px; }
+  .logo-line {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .logo-line .logo-wrap:first-child {
+      margin-left: 0; }
+    .logo-line .logo-wrap:last-child {
+      margin-right: 0; } }
